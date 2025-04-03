@@ -1,13 +1,11 @@
 # Open Aspects
 
 ## Artificial noising
-- Should we simulate different "kinds of noise" based on real world effects like head movement or just add random noise?
-- If we simulate noise from what would be real world processes we might also need to simulate additional data like a reference volume for volume registration right (that would usually come directly out of many MRI devices)?
-- Would this be a way to simulate temporal noise also or what is considered temporal noise in general and would it make sense to also use random noise for that?
-- Is there a requirement on how "bad" the data has to be after adding any kind of noise?
+- Just use the standard level of gaussian noise configured in the notebook? Answer: We can vary that and try different levels too
 
-## Data Processing
-- Does it make sense to use classic denoising preprocessing techniques like volume registration in our project? Since basically due to the artificially constructed real world like noise which we would then mitigate again by this kind of preprocessing, the question arises why to even do this in the first place and not just add random noise?
+## Dataset
+- All .nii.gz files from all subfolders? Yes all in the func subfolders (and anat is a high resolution hopefully coregistered scan that could be used as additional information for denoising possibly )
 
 ## Modeling
-- Nothing open so far
+- Only one model for next presentation but later multiple possible right? -> Pretty flexible and how many and can also change later
+- Should we also validate how classification improves after denoising at the end or not? (And if so with what labels?) -> Maybe at the end, but we will get more information on that then
