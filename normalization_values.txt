@@ -1,0 +1,7 @@
+Ground truth dataset (mean/std):
+18598.324329098174
+30438.86444232424
+
+Noisy dataset (mean/std):
+18598.638916899643
+31381.96243127712
