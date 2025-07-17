@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+numpy
+matplotlib
+tqdm
+nibabel
+scikit-image
+lpips
+ipython
+tensorboardX
+Pillow
+opencv-python
+nilearn
+PyYAML

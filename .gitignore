@@ -2,4 +2,3 @@
 *.gz
 *.npy
 /venv
-*.txt
