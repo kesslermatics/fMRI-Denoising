@@ -4,7 +4,13 @@
 
 This project implements and evaluates a conditional diffusion model, inspired by Google's SR3, for the task of denoising functional Magnetic Resonance Imaging (fMRI) data. The repository provides a complete workflow from data preprocessing and model training to inference and detailed result evaluation.
 
-## 2. Repository Structure
+## 2. Repository Note
+
+**Please note:** The code and experiments for this project were originally developed in the Kaggle notebook environment. The various notebooks for preprocessing, training, and evaluation have been consolidated and organized into the directory structure of this repository for clarity, version control, and final submission.
+Keep in mind, that the input paths should be adjusted accordingly.
+
+
+## 3. Repository Structure
 
 The project is organized into two main directories:
 
@@ -15,7 +21,7 @@ The project is organized into two main directories:
     -   `inference/`: Notebooks to run a trained model on test data and generate denoised images.
     -   `evaluation/`: Scripts and notebooks for the final analysis, including quantitative metrics (PSNR, SSIM, DBPS, tSNR) and qualitative visualizations.
 
-## 3. Setup and Installation
+## 4. Setup and Installation
 
 To run this project, please ensure you have a Python environment with PyTorch and GPU support.
 
@@ -31,7 +37,7 @@ To run this project, please ensure you have a Python environment with PyTorch an
     pip install -r requirements.txt
     ```
 
-## 4. How to Run the Project (Workflow)
+## 5. How to Run the Project (Workflow)
 
 The project is designed to be run in a logical sequence. Pre-trained models are provided in the `/models` directory, allowing you to skip directly to the inference or evaluation steps.
 
