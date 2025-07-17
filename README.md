@@ -14,7 +14,7 @@ Keep in mind, that the input paths should be adjusted accordingly.
 
 The project is organized into two main directories:
 
--   **/models/**: This directory contains pre-trained model checkpoints. The `baseline.md` file provides information about the baseline models used for comparison.
+-   **/models/**: This directory contains pre-trained model checkpoints. The `model_links.md` file provides the links to some models trained within the project.
 -   **/notebooks/**: This directory contains all Jupyter notebooks, organized by function into the following subdirectories:
     -   `preprocessing/`: Notebooks for data preparation, such as coregistering and normalization.
     -   `modeling/`: The primary notebooks for training the different denoising models.
